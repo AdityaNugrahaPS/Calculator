@@ -1,4 +1,4 @@
-// Calculator Program
+// Project 1 - Calculator Program 
 
 const display = document.getElementById("display");
 
@@ -13,7 +13,7 @@ function clearDisplay(){
 function calculate() { //meghitung hasil
     try {
         display.value = eval(display.value)
-    } catch(errorr) {
+    } catch(error) {
         display.value = 'error'
     }
 
