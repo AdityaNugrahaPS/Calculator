@@ -1,0 +1,70 @@
+body {
+    margin: 0; /* menghilangkan margin */
+    margin-top: 100px;
+    margin-bottom: 100px ;
+    display: flex;
+    justify-content: center; /* di tengah kiri kanan */
+    align-items: center;
+    height: 100vh; /* tinggi 100% dari layar */
+    background-color:hsl(0, 0%, 45%);
+}
+
+#calculator {
+    font-family: Arial, sans-serif;
+    background-color:hsl(0, 0%, 15%);
+    border-radius: 15px; /* menumpulkan sudut border */
+    max-width: 500px; /* background-color sebesar 500 px */
+    overflow: hidden; /* kotak output sudutnya di hilangkan */
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left; /* text muncul di kiri */
+    border: none;
+    background-color:hsl(0, 0%, 20%);
+    color: white;
+}
+
+#keys{
+    display: grid; /* tombol tersusun vertikal */
+    grid-template-columns: repeat(4, 1fr); /* menyusun button sesuai posisi kalkulator */
+    gap: 10px; /* jarak antar tombol */
+    padding: 25px; /* jarak kiri kanan atas bawah 25 px */
+}
+
+button {
+    width: 100px; /* lebar */
+    height: 100px; /* tinggi */
+    border-radius: 100px; /* menumpulkan sudut border */
+    border: none; /* border hilang */
+    background-color: hsl(0, 0%, 30%);
+    color: white; /* warna tulisan */
+    font-size: 3rem; /* ukuran font */
+    font-weight: bold; /* jenis font */
+    cursor: pointer; /* cursor menjadi bentuk tangan */
+
+}
+
+button:hover {
+    background-color: hsl(0, 0%, 40%); 
+    /* cursor di atas button berubah warna */
+}
+
+button:active {
+    background-color: hsl(0, 0%, 50%); 
+    /* button di click berubah warna */
+}
+
+.operator-btn {
+    background-color: hsl(35, 100%, 55%);
+}
+
+.operator-btn:hover {
+    background-color: hsl(35, 100%, 65%);
+}
+
+.operator-btn:active {
+    background-color: hsl(35, 100%, 75%);
+}
