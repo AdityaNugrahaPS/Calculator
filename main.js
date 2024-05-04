@@ -13,7 +13,7 @@ function clearDisplay(){
 function calculate() { //meghitung hasil
     try {
         display.value = eval(display.value)
-    } catch(error) {
+    } catch(errorr) {
         display.value = 'error'
     }
 
