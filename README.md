@@ -1,5 +1,7 @@
 # Aplikasi Kalkulator Web 🧮✨
 
+🌐 **Demo Langsung**: [https://calculator-iota-puce-30.vercel.app/](https://calculator-iota-puce-30.vercel.app/) 🖱️
+
 Aplikasi kalkulator sederhana yang dibangun menggunakan HTML, CSS, dan JavaScript. Proyek ini menunjukkan konsep dasar pengembangan web, termasuk manipulasi DOM, tata letak grid, dan desain responsif. 💻🚀
 
 ## Fitur 🌟
